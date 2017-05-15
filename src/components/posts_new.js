@@ -34,6 +34,7 @@ class PostsNew extends Component {
         this.props.createPost(values, () => {
             this.props.history.push('/'); // got back to the route
         });
+        
         //this.props.history.push('/posts/new');
 
     }
